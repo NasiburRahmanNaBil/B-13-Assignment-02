@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+.inter-F{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
 nav{
     background-color: #1A0B2E;
     color: white;
@@ -173,8 +179,22 @@ span{
 .grid-container{
     width: 1200px;
     height: 783px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    margin-top: 50px;
+    grid-template-rows: repeat(12, 1fr);
     color: white;
+}
+
+.grid-1{
+    grid-column: span 4;
+    grid-row: span 6;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #00FF88;
+}
+.grid-3{
+
 }
 
